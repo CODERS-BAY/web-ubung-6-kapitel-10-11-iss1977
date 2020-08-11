@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Listen</title>
+  <style>
+    /* Zur Darstellung nebeneinander - siehe Kapitel zu Gridlayout */
+
+    body {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      align-content: start;
+      grid-gap: 1rem;
+
+    }
+
+    /* Listenformatierungen */
+
+    .inside {
+      list-style-position: inside;
+    }
+
+    .outside {
+      list-style-position: outside;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h2>list-style-position: inside</h2>
+    <ul class="inside">
+      <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+        quis, sem. Nulla consequat massa quis enim. </li>
+      <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+        quis, sem. Nulla consequat massa quis enim. </li>
+      <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+        quis, sem. Nulla consequat massa quis enim. </li>
+    </ul>
+  </div>
+  <div>
+    <h2>list-style-position: outside</h2>
+    <ul class="outside">
+      <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+        quis, sem. Nulla consequat massa quis enim. </li>
+      <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+        quis, sem. Nulla consequat massa quis enim. </li>
+      <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+        quis, sem. Nulla consequat massa quis enim. </li>
+    </ul>
+  </div>
+
+
+</body>
+
+</html>

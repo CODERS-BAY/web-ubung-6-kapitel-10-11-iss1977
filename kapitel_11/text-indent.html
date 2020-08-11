@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>text-indent</title>
+  <style>
+    /* Zur Darstellung nebeneinander - siehe Kapitel zu Gridlayout */
+
+    body {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      align-content: start;
+      grid-gap: 5rem;
+      margin: 3rem;
+    }
+
+    /* Absatzformatierungen */
+
+    .eingerueckt {
+      text-indent: 2em;
+    }
+
+    .haengend {
+      text-indent: -2em;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h2>text-indent: 2em</h2>
+    <p class="eingerueckt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+      quis, sem. Nulla consequat massa quis enim. </p>
+  </div>
+  <div>
+    <h2>text-indent: -2em</h2>
+    <p class="haengend">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+      quis, sem. Nulla consequat massa quis enim. </p>
+  </div>
+</body>
+
+</html>
